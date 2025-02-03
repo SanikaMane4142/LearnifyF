@@ -1,0 +1,74 @@
+/* General Page Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #9c6464;
+  color: #01130c;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for courses */
+.container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(58, 19, 163, 0.1);
+}
+
+/* Header for course recommendations */
+h2 {
+  text-align: center;
+  color: #610b92;
+  font-size: 2rem;
+}
+
+/* Style for the course list */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f0f0f0;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+li:hover {
+  background-color: #e8e8e8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+li a:hover {
+  color: #007bff;
+}
+
+/* Course Name and Description Styles */
+.course-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.course-description {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* No Courses Found */
+.no-courses {
+  text-align: center;
+  color: #777;
+  font-size: 1.2rem;
+  padding: 20px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Recommendations</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/courses.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Recommended Courses</h1>
+    </header>
+    <div class="courses-container">
+        <!-- If courses are provided, loop through and display them -->
+        <ul>
+            {% for course in courses %}
+                <li>
+                    <h3>{{ course['course_name'] }}</h3>
+                    <p>{{ course['description'] }}</p>
+                </li>
+            {% endfor %}
+        </ul>
+        
+        <!-- If no courses are found, display a message -->
+        {% if courses is none or courses|length == 0 %}
+            <p>No courses found for your goal. Please try another goal.</p>
+        {% endif %}
+    </div>
+</body>
+</html>

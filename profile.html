@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearniFy - Profile Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/profile.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to LearniFy</h1>
+        <p>Your personalized learning journey starts here!</p>
+    </header>
+
+    <div class="profile-container">
+        <h1>Welcome to Your Profile</h1>
+        <div class="profile-card">
+            <h2>{{ user[0] }}</h2> <!-- Display student name -->
+            <p><strong>Name:</strong> {{ user[1] }}</p> <!-- Display student name -->
+        </div>
+
+        <div class="profile-details">
+            <p>Explore courses tailored to your goals and interests.</p>
+        </div>
+
+        <div class="goal-section">
+            <label for="goal">Set Your Learning Goal:</label>
+            <form action="{{ url_for('profile') }}" method="POST">
+                <input type="text" id="goal" name="goal" required placeholder="Enter your goal (e.g., Learn Python, Improve Math Skills)">
+                <button type="submit">Get Recommendations</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

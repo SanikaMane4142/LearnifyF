@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearniFy - Personalized Learning</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
+</head>
+
+    </header>
+
+    <section class="enroll-section" id="enroll">
+        <div class="enroll-container">
+            <h2> LOGIN To Start Your Personalized Learning Journey</h2>
+            <form action="/login" method="post">
+                <input type="text" name="email" placeholder="Email" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+            
+        </div>
+    </section>
+    
+    
+    <a href="{{ url_for('home') }}"><button>Back to Home</button></a> 
+        
+    </a>
+</body>
+</html>
