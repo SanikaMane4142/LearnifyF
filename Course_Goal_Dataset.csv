@@ -1,0 +1,31 @@
+Course ID,Course Name,Course Description,Goal ID,Goal Name
+C101,Structural Engineering,Study of load-bearing structures and design principles.,G1,Civil Engineer
+C102,Fluid Mechanics,Understanding the behavior of fluids in motion and at rest.,G1,Civil Engineer
+C103,Geotechnical Engineering,Analysis of soil properties and foundations.,G1,Civil Engineer
+C104,Transportation Engineering,Design and management of transportation systems.,G1,Civil Engineer
+C105,Urban Planning,Planning and designing urban infrastructure.,G1,Civil Engineer
+C201,Thermodynamics,"Study of heat transfer, energy systems, and mechanical processes.",G2,Mechanical Engineer
+C202,Machine Design,Principles of designing mechanical components and systems.,G2,Mechanical Engineer
+C203,Robotics and Automation,Fundamentals of robotics and automated systems.,G2,Mechanical Engineer
+C204,Manufacturing Processes,Study of techniques used in modern manufacturing.,G2,Mechanical Engineer
+C205,Heat Transfer,Understanding the transfer of heat in engineering systems.,G2,Mechanical Engineer
+C301,Programming in Python,Basics of Python programming for beginners in computer science.,G3,Data Scientist
+C302,Data Structures,Learn efficient data organization and algorithms.,G3,Data Scientist
+C303,Database Management Systems,Study of databases and query optimization techniques.,G3,Data Scientist
+C304,Artificial Intelligence,Introduction to AI concepts and applications.,G3,Data Scientist
+C305,Machine Learning,Building predictive models using machine learning algorithms.,G3,Data Scientist
+C401,Environmental Impact,Analyzing the effects of engineering on the environment.,G4,Environmental Engineer
+C402,Waste Management,Study of methods to manage and reduce waste in engineering projects.,G4,Environmental Engineer
+C403,Water Resource Engineering,Understanding water management systems.,G4,Environmental Engineer
+C404,Renewable Energy Systems,Exploring sustainable energy technologies.,G4,Environmental Engineer
+C405,Climate Change Mitigation,Study of strategies to combat climate change through engineering.,G4,Environmental Engineer
+C501,Chemical Process Design,Fundamentals of designing chemical processes and equipment.,G5,Chemical Engineer
+C502,Industrial Chemistry,Application of chemical processes in industrial settings.,G5,Chemical Engineer
+C503,Polymer Technology,Study of polymers and their applications in engineering.,G5,Chemical Engineer
+C504,Reaction Engineering,Understanding chemical reactions in industrial systems.,G5,Chemical Engineer
+C505,Biochemical Engineering,Application of biology in chemical engineering processes.,G5,Chemical Engineer
+C601,Entrepreneurship Basics,Foundations of business strategy and leadership in engineering.,G6,Entrepreneur
+C602,Innovation Management,Developing innovative solutions in engineering projects.,G6,Entrepreneur
+C603,Startup Ecosystems,Study of entrepreneurial ecosystems and funding opportunities.,G6,Entrepreneur
+C604,Business Analytics,Using data to drive business decisions and strategy.,G6,Entrepreneur
+C605,Leadership in Engineering,Building leadership skills for managing engineering teams.,G6,Entrepreneur
